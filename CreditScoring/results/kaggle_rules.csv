@@ -1,0 +1,39 @@
+term,kind,ame,share_on
+NumberOfTime60-89DaysPastDueNotWorse < 0.5,univariate,-0.042684289681707156,0.9493066666666666
+NumberOfTimes90DaysLate < 0.5 & RevolvingUtilizationOfUnsecuredLines < 0.5991,bivariate,-0.03881853506104882,0.7485466666666667
+NumberOfTimes90DaysLate < 0.5,univariate,-0.03371098068745572,0.9444133333333333
+NumberOfTimes90DaysLate < 0.5 & NumberOfTime60-89DaysPastDueNotWorse < 0.5,bivariate,-0.03371073065166699,0.91234
+NumberOfTime60-89DaysPastDueNotWorse ≥ 0.5 & NumberOfTime60-89DaysPastDueNotWorse < 1.5,bivariate,-0.03345897014830311,0.03820666666666667
+NumberOfTime60-89DaysPastDueNotWorse < 0.5 & NumberOfTime30-59DaysPastDueNotWorse < 0.5,bivariate,-0.03273043682465636,0.8187133333333333
+RevolvingUtilizationOfUnsecuredLines ≥ 0.6981 & RevolvingUtilizationOfUnsecuredLines < 1.001,bivariate,-0.030089591548336705,0.17838666666666667
+RevolvingUtilizationOfUnsecuredLines < 0.6981,univariate,-0.028982854699304523,0.7997333333333333
+NumberOfTimes90DaysLate < 0.5 & NumberOfTime30-59DaysPastDueNotWorse < 0.5,bivariate,-0.027201210728886066,0.8135266666666666
+NumberOfOpenCreditLinesAndLoans < 1.5,univariate,0.02702929306236266,0.042173333333333334
+NumberOfTimes90DaysLate ≥ 0.5 & NumberOfTimes90DaysLate < 1.5,bivariate,-0.024531973419607955,0.034953333333333336
+MonthlyIncome < 4834,univariate,-0.020390448976285364,0.34562
+MonthlyIncome ≥ 4834 & NumberRealEstateLoansOrLines < 4.5,bivariate,-0.02009271984975352,0.6452933333333334
+NumberOfTime60-89DaysPastDueNotWorse < 0.5 & RevolvingUtilizationOfUnsecuredLines < 0.6981,bivariate,-0.018815659823730298,0.7772666666666667
+NumberRealEstateLoansOrLines < 0.5,univariate,0.018393749088684474,0.3745866666666667
+NumberOfTime30-59DaysPastDueNotWorse ≥ 0.5 & NumberOfTime30-59DaysPastDueNotWorse < 1.5,bivariate,-0.017458545090242597,0.10688666666666667
+age < 55.5,univariate,0.014322537611767227,0.5866333333333333
+RevolvingUtilizationOfUnsecuredLines ≥ 0.6981 & NumberOfTime30-59DaysPastDueNotWorse < 0.5,bivariate,0.012982847324991982,0.137
+NumberOfOpenCreditLinesAndLoans ≥ 1.5 & MonthlyIncome < 6642,bivariate,0.012477307403362064,0.47840666666666665
+NumberOfTime30-59DaysPastDueNotWorse < 0.5,univariate,-0.00947104666350249,0.84012
+DebtRatio < 0.4233,univariate,-0.009245070598741125,0.5606533333333333
+NumberOfOpenCreditLinesAndLoans < 1.5 & NumberOfOpenCreditLinesAndLoans < 0.5,bivariate,0.008430828631312098,0.012586666666666666
+NumberOfTime60-89DaysPastDueNotWorse,linear,-0.008308998113017056,
+MonthlyIncome ≥ 4834 & DebtRatio < 0.4058,bivariate,-0.007926055745233666,0.3409066666666667
+NumberRealEstateLoansOrLines < 0.5 & NumberOfDependents < 0.8786,bivariate,-0.00781258995460853,0.26526
+NumberRealEstateLoansOrLines,linear,0.005161698548735693,
+age < 55.5 & NumberOfOpenCreditLinesAndLoans < 1.5,bivariate,-0.004660203239706369,0.03072
+NumberRealEstateLoansOrLines ≥ 0.5 & DebtRatio < 0.378,bivariate,-0.004494855105500651,0.24564
+NumberOfTime30-59DaysPastDueNotWorse,linear,0.003952723455315141,
+NumberOfTimes90DaysLate,linear,0.0038528824403346314,
+age < 55.5 & NumberRealEstateLoansOrLines < 0.5,bivariate,-0.002861708489623635,0.22085333333333335
+NumberOfDependents ≥ 0.8786 & DebtRatio < 0.5042,bivariate,-0.0025256878896079784,0.27820666666666666
+age < 55.5 & MonthlyIncome < 6671,bivariate,-0.0024837106704068764,0.4117133333333333
+NumberOfOpenCreditLinesAndLoans,linear,0.001644609517802815,
+NumberOfDependents,linear,0.0014904720925564214,
+age,linear,-0.0005319567146185131,
+RevolvingUtilizationOfUnsecuredLines,linear,-1.1518563478760307e-05,
+DebtRatio,linear,-8.070713902329388e-07,
